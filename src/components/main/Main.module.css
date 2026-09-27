@@ -1,0 +1,59 @@
+.mainWrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+    color: white;
+    margin-top: 8rem;
+    gap: 10px;
+}
+img{
+    max-width:600px;
+    border-radius: 10px;
+}
+.mainContent{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    /* background-color: blanchedalmond;/ */
+}
+.mainText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    /* background-color: aqua; */
+}
+.mainText h1{
+    font-size:2.5rem;
+}
+.mainText p{
+    font-size: 1.2rem;
+    color: rgba(167, 167, 158, 0.589);
+}
+.mainText h4{
+    font-size: 1.2rem;
+}
+.mainForm{
+    display: flex;
+    gap: 1rem;
+}
+input{
+    background-color: inherit;
+    padding: 15px;
+    border: 1px solid rgba(138, 137, 137, 0.715);
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+}
+input ::placeholder{
+    color: rgba(163, 164, 164, 0.203);
+}
+button{
+    padding: 15px;
+    border: 1px solid rgba(138, 137, 137, 0.715) ;
+    border-radius: 2rem;
+    background-color:  rgba(138, 137, 137, 0.429) ;
+    font-size: 1.2rem;
+    color: white;
+}

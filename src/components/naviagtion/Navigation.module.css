@@ -1,0 +1,49 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 3rem;
+   /* background-color: #0b0f19;  */
+  /* border-bottom: 1px solid rgba(197, 7, 7, 0.08); */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.logoImg {
+  height: 40px; 
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem; 
+}
+.navLink {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+.navLink:hover {
+  color: #ffffff;
+}
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #3bedf6; 
+  transition: width 0.25s ease-in-out;
+  border-radius: 2px;
+}
+.navLink:hover::after {
+  width: 100%;
+}

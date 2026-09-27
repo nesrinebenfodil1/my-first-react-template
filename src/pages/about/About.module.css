@@ -1,0 +1,23 @@
+.AboutContainer{
+    margin-top: 30px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem; 
+  margin-bottom: 2.5rem;
+}
+
+.heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Centers the line */
+  width: 140px;                  /* Width of the accent line */
+  height: 4px;                 /* Thickness of the line */
+  background: #0ed4d1;         
+  border-radius: 2px;
+}

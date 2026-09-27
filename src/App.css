@@ -1,0 +1,14 @@
+*::before , *::after , * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    background-color:#181c31; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.AppWrapper{
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
