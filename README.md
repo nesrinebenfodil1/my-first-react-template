@@ -7,6 +7,6 @@ live review :  https://my-first-react-template.vercel.app/
 
 template : https://solid.demo.nextjstemplates.com/
 
-**🔮 Roadmap & Upcoming Updates :
+🔮 Roadmap & Upcoming Updates :
 React Hooks Integration(useSate, useEffect)
 Form State Handling
