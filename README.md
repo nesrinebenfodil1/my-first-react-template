@@ -4,3 +4,9 @@ inspired by learning resources from Zarrol's Scrimba free tutorial.
 
 
 live review :  https://my-first-react-template.vercel.app/
+
+template : https://solid.demo.nextjstemplates.com/
+
+**🔮 Roadmap & Upcoming Updates :
+React Hooks Integration(useSate, useEffect)
+Form State Handling
